@@ -1,3 +1,9 @@
+/***************************************************
+ File Name:AWSEM.C
+ Author:Amitoj Singh
+ Compile:g++ AWESEM.C -o awsem -lgraph
+ **************************************************/
+
 #include <graphics.h>
 #include <stdlib.h>
 #include <stdio.h>
