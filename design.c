@@ -1,7 +1,7 @@
 /***************************************************
- File Name:AWSEM.C
+ File Name:design.c
  Author:Amitoj Singh
- Compile:g++ AWESEM.C -o awsem -lgraph
+ Compile:g++ design.c -o design -lgraph
  **************************************************/
 
 #include <graphics.h>
@@ -17,12 +17,12 @@ int main()
    variables */
    initgraph(&gdriver, &gmode, NULL);
    setbkcolor(5);
-   while(i<900)
+   while(i<800)
    {
    circle(100,100,i);
    i=i+1;
    }
-   while(j<900)
+   while(j<800)
    {
    circle(500,420,j);
    j=j+1;
